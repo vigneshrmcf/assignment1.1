@@ -5,7 +5,7 @@ values = [ord(x) for x in letters]
 dic = dict()
 for i in range (len(letters)):
     dic[letters[i]]= values[i]
-print(dic)
+print('output:' , dic)
 
 
 
